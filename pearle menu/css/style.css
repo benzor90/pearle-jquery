@@ -142,15 +142,6 @@ body {
 			position: relative;
 			padding-left: 40px;
 		}
-
-
-
-
-/*		.search li a.mandje  {
-			position: relative;
-			padding-left: 50px;
-			z-index: 1;
-			/*overflow: hidden;*/
 		
 
 
@@ -161,9 +152,6 @@ body {
 		}
 
 		.count-mandje {
-			/*position: absolute;
-			bottom: 40px;
-    		right: -20px;*/
 			height: 40px;
 			width: 40px;
 			background-color:#dd672f;
@@ -275,7 +263,7 @@ body {
 /*dropdown-winkelmandje*/
 
 	.winkelmandje-dropdown {
-		height: 400px;
+		height: 265px;
 		width: 350px;
 		padding:10px;
 		color: #999;
@@ -289,6 +277,11 @@ body {
     	-webkit-box-shadow: 0px 3px 6px 0px rgba(102,102,102,0.73);
 		-moz-box-shadow: 0px 3px 6px 0px rgba(102,102,102,0.73);
 		box-shadow: 0px 3px 6px 0px rgba(102,102,102,0.73);
+	}
+
+	.winkelmandje-dropdown a {
+		float: right;
+		margin-top: 10px;
 	}
 
 	.mandje-sticky {
