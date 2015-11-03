@@ -6,17 +6,11 @@ $(window).scroll(function(){
 	  	$('.sticky-header').fadeIn(300, function() {
 	    	$('.sticky-header').addClass('visible');
 	    	// dropdownmandje
-	   		$('.winkelmandje-dropdown').stop(true,true).delay(0).fadeOut(300);
- 			
+	   		$('.winkelmandje-dropdown').stop(true,true).delay(0).fadeOut(300);	
 	    });	
 	  } else {
 	  	$('.sticky-header').fadeOut(100, function() {
 	    	$('.sticky-header').removeClass('visible');
-
-	    	// dropdownmandje
-	    	// $('.winkelmandje-dropdown-sticky').stop(true,true).fadeOut(300);
-	    	// fade2 = 0;
-
 	    });	
 	  }
 	});
@@ -26,35 +20,6 @@ $('a.mandje').on('click', function(e) {
 	e.preventDefault();
 });
 
-// var fade = 0;
-//  $('.mandje1, .winkelmandje-dropdown').hover( function() {
- 	
-//  	if (fade === 0 ) {
-//  		$('.winkelmandje-dropdown').fadeIn(300, function() {
-// 	 		$('.winkelmandje-dropdown').addClass('visible');
-// 	 		fade = 1;
-//  		});
-//  	} else {
-//  		$('.winkelmandje-dropdown').fadeOut(100, function() {
-//  			$('.winkelmandje-dropdown').removeClass('visible');
-//  		fade = 0;
-//  	});
-//  	}
- 	
-//  });
-
- // var fade2 = 0;
- // $('.mandje2, .winkelmandje-dropdown-sticky').hover( function() {
- 	
- // 	if (fade2 === 0 ) {
- // 		$('.winkelmandje-dropdown-sticky').stop(true,true).fadeIn(300);
- // 		fade2 = 1;
- // 	} else {
- // 		$('.winkelmandje-dropdown-sticky').stop(true,true).delay(0).fadeOut(300);
- // 		fade2 = 0;
- // 	}
- 	
- // });
 
 // dropdown links
 var fade = 0;
